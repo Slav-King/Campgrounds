@@ -1,0 +1,57 @@
+<%- include ("partials/header") %>
+<style type="text/css" rel="stylesheet">
+  
+  .jumbotron{
+       height: 300px;
+       margin: 30px; 
+       padding-left: 300px;
+   }
+   h1{
+       text-align: center;
+   }
+   #button3{
+      position: relative;
+      float: left;
+      margin-top: -5px;
+   }
+   .camplink{
+      position: relative;
+      float: right;
+      margin-top: -33px;
+   }
+</style>
+<div class="container">
+    <div class="jumbotron">
+        <h1> Edit <%= campground.name %></h1>
+      <hr>  
+      <div class="container">
+            <form action="/campgrounds/<%= campground._id%>?_method=PUT" method="POST" class="ui form">
+               <div class="row">
+                  <div class="ui input focus">
+                     <div class="field">
+                           <lable> New Campground </lable>
+                        <input id="input1" type = "text" name = "campground[name]" value="<%= campground.name %>">
+                     </div>
+                     <div class="field">
+                           <lable> Price in $</lable>
+                        <input id="input4" type = "number" name = "campground[price]" value = "<%= campground.price %>" min="0.01" step="0.01">
+                     </div>
+                     <div class="field">
+                        <lable> Image Url</lable>
+                        <input id="input2" type = "text" name = "campground[image]" value="<%= campground.image %>">
+                     </div>
+                     <div class="field">
+                        <lable> Description </lable>
+                        <input id="input3" type = "text" name = "campground[description]" value=" <%= campground.description %>">   
+                     </div>
+                  </div>
+                  <button id="button3" class="ui blue basic button"> Submit </button>
+               </div>
+            </form> 
+      </div>
+        <a class="camplink" href="/campgrounds"> Go back</a>
+    </div>
+</div>
+<%- include ("partials/footer") %>
+
+

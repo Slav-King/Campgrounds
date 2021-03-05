@@ -1,0 +1,69 @@
+UI Improvements of YelpCamp!!
+
+Hi Everyone!
+I've been working on some additional features for the YelpCamp project. You can view the source code here. So far I've included the following features: 
+
+CSS3 background animation on landing page 
+
+Fuzzy Search 
+
+Campground location with Google Maps
+
+Campground cost 
+
+Footer 
+
+Home link in navigation 
+
+Authentication flash messages 
+
+Display time since post was created with Moment JS 
+
+User profile 
+
+Password reset 
+
+Image upload with multer and cloudinary 
+
+Migration/upgrade instructions for Bootstrap 4
+
+Refactor callbacks with Async/Await
+
+In-app notifications
+
+Payment with Stripe API
+
+*See below for all tutorial links as well as additional tutorials provided by Zarko
+
+Ratings and reviews
+
+Comments on the campground show page
+
+Pagination in campgrounds index
+
+- NEW!!! Checkout/Payment with Stripe API - https://youtu.be/y-nwhZUe_gw
+
+- UI Improvements (login and signup, nav-bar, registration flash message) - http://slides.com/nax3t/yelpcamp-refactor-ui
+
+- Pricing feature - http://slides.com/nax3t/yelpcamp-refactor-pricing
+
+- Google Maps location - https://www.youtube.com/watch?v=B4OuCjQLJ9k
+
+- Time since created w/ Moment JS - http://slides.com/nax3t/yelpcamp-refactor-moment
+
+- Admin role (user roles) - https://www.youtube.com/watch?v=somc45pnM2k
+
+- User profile - https://youtu.be/6ar77jZ_ajc
+
+- Password reset - https://youtu.be/UV9FvlTySGg
+
+- Fuzzy Search - https://youtu.be/9_lKMTXVk64
+
+- Image upload - https://youtu.be/RHd4rP9U9SA
+
+- Migrating to Bootstrap 4 - https://www.youtube.com/watch?v=NHHh0sj1uKY
+
+- Refactor callbacks in seeds.js to use Async/Await - https://youtu.be/D_q-sQCdZXw
+
+- In-app Notifications - https://www.youtube.com/watch?v=Tt9orKnUiEU
+
